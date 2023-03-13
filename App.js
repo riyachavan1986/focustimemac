@@ -14,6 +14,7 @@ import { Timer } from './src/features/Timer';
 import {FocusHistory} from './src/features/FocusHistory';
 
 export default function App() {
+  console.log("hello this is direct")
   const [currentSubject, setCurrentSubject] = useState();
   const [history,setHistory] =useState([]);
   return (
